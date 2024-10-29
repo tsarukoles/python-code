@@ -10,21 +10,21 @@ This repository contains a collection of Python code challenges and exercises, o
 
 xxx Project Structure xxx
 
-  The repository is organized by topics, each containing a set of Python challenges:
+      The repository is organized by topics, each containing a set of Python challenges:
 
-python-code/
-│
-├── lesson_1
-│
-├── lesson_2
-│
-├── lesson_3
-│
-├── lesson_4
-│
-├── lesson_5
-│
-└── README.md
+    python-code/
+    │
+    ├── lesson_1
+    │
+    ├── lesson_2
+    │
+    ├── lesson_3
+    │
+    ├── lesson_4
+    │
+    ├── lesson_5
+    │
+    └── README.md
 
 Lesson_1:
 
@@ -126,7 +126,8 @@ Lesson_5:
     Test 513: Reverse a Number and Check if it is a Palindrome
 
 Topics Covered in the Challenges
-  These challenges cover a wide range of foundational Python programming concepts and problem-solving techniques. Here’s a breakdown of the topics explored:
+    
+      These challenges cover a wide range of foundational Python programming concepts and problem-solving techniques. Here’s a breakdown of the topics explored:
 
     String Manipulation:
       •	Lesson 3:
@@ -198,7 +199,7 @@ Topics Covered in the Challenges
 
 Contributing
 
-  Contributions are welcome! If you want to add new challenges, improve existing ones, or fix bugs, feel free to submit a pull request.
+      Contributions are welcome! If you want to add new challenges, improve existing ones, or fix bugs, feel free to submit a pull request.
 
     o Fork the repository.
     o Create a new branch (git checkout -b feature-branch).
