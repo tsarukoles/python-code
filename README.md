@@ -1,4 +1,4 @@
-# python-code
+# Python-code-challenges
 This repository contains a collection of Python code challenges and exercises, organized by topic. The challenges are designed to help you practice and improve your skills in Python programming, focusing on various core concepts such as loops, arrays, functions, and more.
 
   1) Table of Contents
