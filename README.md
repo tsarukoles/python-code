@@ -127,74 +127,74 @@ Lesson_5:
 
 Topics Covered in the Challenges
   These challenges cover a wide range of foundational Python programming concepts and problem-solving techniques. Here’s a breakdown of the topics explored:
-________________________________________
-String Manipulation:
-  •	Lesson 3:
-    o	Task 301 involves reversing a string to display the text backward.
-    o	Task 303 and Task 304 focus on counting occurrences of a substring within a string, including case-insensitive searching.
-    o	Task 305 and Task 313 demonstrate how to replace substrings or specific words within a given string.
-  These tasks emphasize core string operations, such as reversing, searching, and replacing text, which are essential in text processing and data manipulation tasks.
-________________________________________
-Conditional Statements:
-  •	Lesson 2:
-    o	Task 217 calculates the power of a number based on user input.
-    o	Task 211 checks whether a number is positive, negative, or zero, using if-elif-else conditions.
-    o	Task 215 identifies the current season based on the inputted month.
-  •	Lesson 4:
-    o	Task 416 and Task 418 apply conditional logic to print a filled or hollow square of stars, allowing users to choose between the two options.
-  Conditional statements are central in determining the flow of control in a program, allowing the tasks to behave differently based on specific input values.
-________________________________________
-Loops:
-  •	Lesson 4:
-    o	Task 401, Task 402, and Task 403 involve iterating over a range of numbers and skipping certain values based on conditions (like skipping even or odd numbers).
-    o	Task 405 and Task 406 use for loops to count multiples of 5 and 7 in a given range and print multiplication tables.
-  •	Lesson 3:
-    o	Task 309 and Task 319 demonstrate how to reverse strings and perform arithmetic operations on characters or numbers within a string using loops.
-  Loops are key in many programming tasks, especially those involving iterations over sequences, lists, or ranges. These tasks illustrate both simple and nested loops in various contexts.
-________________________________________
-Functions:
-  •	Lesson 2:
-    o	Task 203 involves creating a function that returns the maximum, minimum, and average of three numbers.
-    o	Task 218 calculates the total sales and salary for managers based on sales percentages.
-  •	Lesson 5:
-    o	Test 507 creates a function to check if a number is "lucky," based on the sum of its digits.
-    o	Test 506 checks if a number is prime by defining a function that performs divisibility checks.
-  Functions allow tasks to be modular and reusable, making the code easier to manage and reducing redundancy. These tasks focus on encapsulating logic inside functions for better structure and flexibility.
-________________________________________
-Mathematics and Number Theory:
-  •	Lesson 2:
-    o	Task 204 performs conversions between different units (meters to miles, etc.).
-    o	Task 216 is the FizzBuzz challenge, where numbers divisible by 3 or 5 are replaced with specific words.
-  •	Lesson 5:
-    o	Test 506 checks for prime numbers, which is a classic number theory problem.
-    o	Test 512 counts digits in a number, while Test 513 reverses a number and checks if it’s a palindrome.
-  These tasks focus on mathematical algorithms and properties, showcasing how Python can be used to solve basic number theory problems.
-________________________________________
-Input and Output:
-  •	Lesson 4:
-    o	Task 409 allows the user to choose between converting currency from USD to UAH or UAH to USD.
-    o	Task 411 is an interactive random number guessing game where the user tries to guess the correct number.
-  Many tasks rely on input() to dynamically gather information from users and print() to display results, allowing interaction and feedback loops within the program.
-________________________________________
-Basic Algorithm Design:
-  •	Lesson 2:
-    o	Task 213 implements a lucky number checker by summing digits and comparing two halves of the number.
-    o	Task 214 rearranges digits in a number to create a new format.
-  •	Lesson 5:
-    o	Test 508 prints even numbers between two inputs using a simple algorithm based on divisibility by 2.
-  These tasks emphasize problem decomposition, where each challenge breaks a problem into smaller steps to be solved systematically.
-________________________________________
-Pattern Printing:
-  •	Lesson 4:
-    o	Task 416, Task 417, and Task 418 generate patterns such as filled or empty squares and rectangles using nested loops.
-    o	Task 423 and Task 424 print more complex shapes like diamonds and checkerboard patterns.
-  These challenges illustrate how loops can be used to create geometric patterns and shapes, a common exercise in early programming tasks.
-________________________________________
-Error Checking and Logic:
-  •	Lesson 5:
-    o	Test 506 checks if a number is prime by performing multiple divisibility checks, handling special cases like 2 and negative numbers.
-    o	Test 507 checks for lucky numbers by breaking them down into individual digits and performing calculations.
-  These tasks focus on implementing the correct logic and handling different cases, showcasing the importance of error checking and validation in programming.
+
+    String Manipulation:
+      •	Lesson 3:
+        o	Task 301 involves reversing a string to display the text backward.
+        o	Task 303 and Task 304 focus on counting occurrences of a substring within a string, including case-insensitive searching.
+        o	Task 305 and Task 313 demonstrate how to replace substrings or specific words within a given string.
+      These tasks emphasize core string operations, such as reversing, searching, and replacing text, which are essential in text processing and data manipulation tasks.
+
+    Conditional Statements:
+      •	Lesson 2:
+        o	Task 217 calculates the power of a number based on user input.
+        o	Task 211 checks whether a number is positive, negative, or zero, using if-elif-else conditions.
+        o	Task 215 identifies the current season based on the inputted month.
+      •	Lesson 4:
+        o	Task 416 and Task 418 apply conditional logic to print a filled or hollow square of stars, allowing users to choose between the two options.
+      Conditional statements are central in determining the flow of control in a program, allowing the tasks to behave differently based on specific input values.
+
+    Loops:
+      •	Lesson 4:
+        o	Task 401, Task 402, and Task 403 involve iterating over a range of numbers and skipping certain values based on conditions (like skipping even or odd numbers).
+        o	Task 405 and Task 406 use for loops to count multiples of 5 and 7 in a given range and print multiplication tables.
+      •	Lesson 3:
+        o	Task 309 and Task 319 demonstrate how to reverse strings and perform arithmetic operations on characters or numbers within a string using loops.
+      Loops are key in many programming tasks, especially those involving iterations over sequences, lists, or ranges. These tasks illustrate both simple and nested loops in various contexts.
+
+    Functions:
+      •	Lesson 2:
+        o	Task 203 involves creating a function that returns the maximum, minimum, and average of three numbers.
+        o	Task 218 calculates the total sales and salary for managers based on sales percentages.
+      •	Lesson 5:
+        o	Test 507 creates a function to check if a number is "lucky," based on the sum of its digits.
+        o	Test 506 checks if a number is prime by defining a function that performs divisibility checks.
+      Functions allow tasks to be modular and reusable, making the code easier to manage and reducing redundancy. These tasks focus on encapsulating logic inside functions for better structure and flexibility.
+
+    Mathematics and Number Theory:
+      •	Lesson 2:
+        o	Task 204 performs conversions between different units (meters to miles, etc.).
+        o	Task 216 is the FizzBuzz challenge, where numbers divisible by 3 or 5 are replaced with specific words.
+      •	Lesson 5:
+        o	Test 506 checks for prime numbers, which is a classic number theory problem.
+        o	Test 512 counts digits in a number, while Test 513 reverses a number and checks if it’s a palindrome.
+      These tasks focus on mathematical algorithms and properties, showcasing how Python can be used to solve basic number theory problems.
+
+    Input and Output:
+      •	Lesson 4:
+        o	Task 409 allows the user to choose between converting currency from USD to UAH or UAH to USD.
+        o	Task 411 is an interactive random number guessing game where the user tries to guess the correct number.
+      Many tasks rely on input() to dynamically gather information from users and print() to display results, allowing interaction and feedback loops within the program.
+
+    Basic Algorithm Design:
+      •	Lesson 2:
+        o	Task 213 implements a lucky number checker by summing digits and comparing two halves of the number.
+        o	Task 214 rearranges digits in a number to create a new format.
+      •	Lesson 5:
+        o	Test 508 prints even numbers between two inputs using a simple algorithm based on divisibility by 2.
+      These tasks emphasize problem decomposition, where each challenge breaks a problem into smaller steps to be solved systematically.
+
+    Pattern Printing:
+      •	Lesson 4:
+        o	Task 416, Task 417, and Task 418 generate patterns such as filled or empty squares and rectangles using nested loops.
+        o	Task 423 and Task 424 print more complex shapes like diamonds and checkerboard patterns.
+      These challenges illustrate how loops can be used to create geometric patterns and shapes, a common exercise in early programming tasks.
+
+    Error Checking and Logic:
+      •	Lesson 5:
+        o	Test 506 checks if a number is prime by performing multiple divisibility checks, handling special cases like 2 and negative numbers.
+        o	Test 507 checks for lucky numbers by breaking them down into individual digits and performing calculations.
+      These tasks focus on implementing the correct logic and handling different cases, showcasing the importance of error checking and validation in programming.
 
 Contributing
 
