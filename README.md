@@ -4,9 +4,7 @@ This repository contains a collection of Python code challenges and exercises, o
     1) Table of Contents
     2) Project Structure
     3) Topics Covered
-    4) Getting Started
-    5) How to Use the Repository
-    6) Contributing
+    4) Contributing
 
 xxx Project Structure xxx
 
