@@ -1,4 +1,4 @@
-//Task_1
+#Task_101
 
 a=int(input("Enter the number: "))
 b=a%10
@@ -10,7 +10,7 @@ a //=10
 f=a*d*c*b
 print(f)
 
-//Task_2
+#Task_102
 
 a=int(input("Enter the length in meters: "))
 b=a*100
@@ -22,7 +22,7 @@ print(a,"m = dm",c)
 print(a,"m = mm",d)
 print(a,"m = miles",e)
 
-//Task_3
+#Task_103
 
 a=int(input("Enter the number: "))
 b=a%10
@@ -34,7 +34,7 @@ a //=10
 e=b*1000+c*100+d*10+a
 print(e)
 
-//Task_4
+#Task_104
 
 a=int(input("Enter the high of the triangle:"))
 b=int(input("Enter the base of the triangle:"))
@@ -47,7 +47,7 @@ if c%2==0:
 else:
     print("Odd number")
 
-//Task_5
+#Task_105
 
 number=int(input("Enter a number: "))
 if number%7==0:

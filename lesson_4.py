@@ -1,4 +1,4 @@
-// Task_1
+# Task_401
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -6,7 +6,7 @@ while number_one < number_two:
     print(number_one)
     number_one +=1
 
-// Task_2
+# Task_402
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -16,7 +16,7 @@ while number_one < number_two:
         continue
     print(number_one)
 
-// Task_3
+# Task_403
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -26,7 +26,7 @@ while number_one < number_two:
         continue
     print(number_one)
 
-// Task_4
+# Task_404
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -34,7 +34,7 @@ while number_two > number_one:
     number_two -= 1
     print(number_two)
 
-// Task_5
+# Task_405
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -44,7 +44,7 @@ for number_one in range(number_one - 1, number_two):
         continue
     print(number_one)
 
-// Task_6
+# Task_406
 
 odd_five = 0
 number_one = int(input("Enter the first number:"))
@@ -61,8 +61,7 @@ for number in range(number_two, number_one - 1, - 1):
     print(number)
 print("count odd 5",odd_five)
 
-// Task_7
-
+# Task_407
 
 number_one = int(input("Enter the first number:"))
 number_two = int(input("Enter the second number:"))
@@ -76,14 +75,13 @@ for number in range(number_one, number_two + 1):
     else:
         print(number)
 
-// Task_8
+# Task_408
 
 number = int(input("Enter the number to multiply:"))
 for i in range(1, 10):
     print(number, "*", i, "=", number * i)
 
-// Task_9
-
+# Task_409
 
 useChoice=int(input("Enter what kind of currency you wnat to chage\n1-dollars to grn\n2-grn to dollars\n0- for exit"))
 
@@ -96,7 +94,7 @@ while useChoice!=0:
     useChoice = int(
         input("Enter what kind of currency you wnat to chage\n1-dollars to grn\n2-grn to dollars\n0- for exit"))
 
-// Task_10
+# Task_410
 
 numberOne = int(input("Enter the first number of the range: "))
 numberTwo = int(input("Enter the second number of the range: "))
@@ -109,7 +107,7 @@ for i in range(numberOne,numberTwo+1):
     else:
         print(i,end=" ")
 
-// Task_11
+# Task_411
 
 import random
 number=random.randint(1,500)
@@ -133,7 +131,7 @@ while userAnswer != number or userAnswer !=0:
 
 print("You need ",count,"count")
 
-// Task_12
+# Task_412
 
 x = int(input("Enter numer X: "))
 y = int(input("Enter number Y: "))
@@ -147,12 +145,7 @@ for i in range(1,10):
         print(i*j,end="\t")
     print()
 
-i = 1 j = 1 j=2 j=3 j=4 j=5 j=6 j=7 j=8 j=9
-i=2   j = 1 - 9
-i=3  j=1-9
-i = 4 j =1-9
-i = 9 j=1-9
-
+# Task_412a
 
 floor = 1
 energy = 80
@@ -169,7 +162,7 @@ while floor != 5:
     print("I'm on the", floor, "floor")
 print("I'm done")
 
-// Task_13
+# Task_413
 
 amount = 0
 for i in range(100, 1000):
@@ -182,7 +175,7 @@ for i in range(100, 1000):
         amount += 1
 print(amount)
 
-// Task_14
+# Task_414
 
 amount = 0
 for i in range(100, 10000):
@@ -197,7 +190,7 @@ for i in range(100, 10000):
         amount = amount + 1
 print(amount)
 
-// Task_15
+# Task_415
 
 result = 0
 decimal = 1
@@ -216,7 +209,7 @@ for i in number:
 
 print(result)
 
-// Task_16
+# Task_416
 
 number = int(input("Enter a number: "))
 for i in range(number):
@@ -224,7 +217,7 @@ for i in range(number):
         print("*", end="\t")
     print()
 
-// Task_17
+# Task_417
 
 width = int(input("Enter the width: "))
 height = int(input("Enter the height: "))
@@ -233,11 +226,7 @@ for i in range(height):
         print("*", end="\t")
     print()
 
-Завдання 3
-Користувач вводить з клавіатури розмір сторони
-квадрата. Виведіть на екран незаповнений квадрат (відо-
-бразяться лише межі квадрата). Розмір сторони дорівнює
-введеному розміру.
+# Task_417a
 
 number = int(input("Enter a number: "))
 for i in range(number):
@@ -248,7 +237,7 @@ for i in range(number):
             print(" ",end=" ")
     print()
 
-// Task_18
+# Task_418
 
 width = int(input("Enter the width:"))
 height = int(input("Enter the height:"))
@@ -260,7 +249,7 @@ for i in range(height):
             print(" ", end=" ")
     print()
 
-// Task_19
+# Task_419
 
 start = int(input("Enter a start number: : "))
 end = int(input("Enter an end number: "))
@@ -277,7 +266,7 @@ for num in range(start, end + 1):
         if is_prime:
             print(num, end=' ')
 
-// Task_20
+# Task_420
 
 numberOne = int(input("Enter the first number: "))
 numberTwo = int(input("Enter the second number: "))
@@ -286,7 +275,7 @@ for i in range(numberOne, numberTwo + 1):
         print(i, "*", j, "=", i * j, end="\t")
     print()
 
-// Task_21
+# Task_421
 
 total = 0
 count = 0
@@ -314,24 +303,18 @@ while userChoice != 0:
     userChoice = int(input("Your choice:\n1. Amount of digits\n2. Sum of you digits\n3. Average of your digits\n4. Amount of 0's\n0. Exit\n"))
 print("Thank you!")
 
-// Task_22
+# Task_422
 
-//***---***---***---***---
-//***---***---***---***---
-//***---***---***---***---
-//---***---***---***---***
-//---***---***---***---***
-//---***---***---***---***
+#***---***---***---***---
+#***---***---***---***---
+#***---***---***---***---
+#---***---***---***---***
+#---***---***---***---***
+#---***---***---***---***
 
 rows = 8
 cols = 8
 size = int(input("Enter the size of the cell: "))
-for i in range(size):
-    for j in range(size):
-
-// Task_23
-
-size = 9
 for i in range(size):
     for j in range(size):
         if i == 0 and j == 4 or i == 1 and 3 <= j <= 5 or i == 2 and 2 <= j <= 6 or i == 3 and 1 <= j <= 7 or i == 4 and 0 <= j <= 9 or i == 5 and 1 <= j <= 7 or i == 6 and 2 <= j <= 6 or i == 7 and 3 <= j <= 5 or i == 8 and j == 4:
@@ -339,7 +322,9 @@ for i in range(size):
         else:
             print(" ", end="")
     print()
-############################################
+
+# Task_423
+
 n=5
 for i in range(2*n-1):
     if i<n:
@@ -349,17 +334,15 @@ for i in range(2*n-1):
         spaces=i-n+1
         stars=2*(2*n-i-1)-1
     print(' '*spaces+'*'*stars)
-############################################
 
-// Task_24
+# Task_424
 
-//***---***---***---***---
-//***---***---***---***---
-//***---***---***---***---
-//---***---***---***---***
-//---***---***---***---***
-//---***---***---***---***
-
+#***---***---***---***---
+#***---***---***---***---
+#***---***---***---***---
+#---***---***---***---***
+#---***---***---***---***
+#---***---***---***---***
 
 cell_size = int(input("Enter the size: "))
 rows = 8
@@ -372,7 +355,7 @@ for i in range(rows * cell_size):
             print('-', end='')
     print()
 
-// Task_25
+# Task_425
 
 size = 9
 stars = 0

@@ -1,14 +1,14 @@
-// Test_1
+# Test_501
 
-//“Don’t let the noise of others’ opinions
-//drown out your own inner voice.”
-//Steve Jobs
+#“Don’t let the noise of others’ opinions
+#drown out your own inner voice.”
+#Steve Jobs
 
 def myFormText():
     print('“Don’t let the noise of others\ndrown out you own inner voice’\nSteve Jobs')
 myFormText()
 
-// Test_2
+# Test_502
 
 def myNumber(a,b):
     for i in range(a,b+1): # using cycle, a and b+1 become a range fom 1 - 10
@@ -17,7 +17,7 @@ def myNumber(a,b):
 
 myNumber(1, 10)
 
-// Test_3
+# Test_503
 
 def myLine(a, b, c):
     if b == "v":
@@ -33,33 +33,23 @@ symbol = input("Enter your symbol: ")
 
 myLine(length, direction, symbol)
 
-// Test_4
+# Test_504
 
 def maxNum(a, b, c, d):
-    if a > b and a > c and a > d:
-        return a
-    elif b > c and b > a and b > d:
-        return b
-    elif c > a and c > b and c > d:
-        return c
-    elif d > a and d > b and d > c:
-        return d
+    result = a
 
-result = a
+    if b > result:
+        result = b
+    if c > result:
+        result = c
+    if d > result:
+        result = d
+    return result
 
-if b > result:
-    result = b
-if c > result:
-    result = c
-if d > result:
-    result = d
-
+result = maxNum(1, 2, 21, 4)
 print(result)
 
-
-maxNum(1, 2, 21, 4)
-
-// Test_5
+# Test_505
 
 def sumNumbers(a, b):
     mySum = 0
@@ -67,11 +57,9 @@ def sumNumbers(a, b):
         mySum += i
     return mySum
 
-
 print(sumNumbers(1, 5))
 
-
-// Test_6
+# Test_506
 
 def isSimpleNumber(num):
     if num <2:
@@ -94,13 +82,12 @@ def is_prime(n):
             return False
     return True
 
-
 print(isSimpleNumber(5))
 print(isSimpleNumber(2))
 print(isSimpleNumber(10.1))
 print(isSimpleNumber(-9))
 
-// Test_7
+# Test_507
 
 def isLucky(num):
     b = num % 10  #12345 6
@@ -118,22 +105,19 @@ def isLucky(num):
     else:
         return "Not Lucky number"
 
-
 print(isLucky(123456))
 print(isLucky(123420))
 
-// Test_8
+# Test_508
 
 def isEven(numOne, numTwo):
     for i in range(numOne, numTwo + 1):
         if i % 2 == 0:
             print(i)
 
-
 isEven(1, 20)
 
-
-// Test_9
+# Test_509
 
 def whatSquare(length, symbol, logic):
     if logic == True:
@@ -150,15 +134,11 @@ def whatSquare(length, symbol, logic):
                     print(" ", end="\t")
             print()
 
-
-
-
 whatSquare(5,"*", False)
 print()
 whatSquare(5,"*", True)
 
-
-// Test_10
+# Test_510
 
 def minNum(a, b, c, d, e):
 
@@ -176,8 +156,7 @@ def minNum(a, b, c, d, e):
 print(minNum(1, 2, 3, 4, 5))
 print(minNum(6, 2, 3, 4, 5))
 
-
-// Test_11
+# Test_511
 
 def multiplyNum(a, b):
 
@@ -192,12 +171,10 @@ def multiplyNum(a, b):
 
     return result
 
-
 print(multiplyNum(1, 5))
 print(multiplyNum(5, 1))
 
-
-// Test_12
+# Test_512
 
 def amountNum(number):
     result = 0
@@ -206,10 +183,9 @@ def amountNum(number):
         result += 1
     return result
 
-
 print(amountNum(104234230))
 
-// Test_13
+# Test_513
 
 def myPalindrome(number):
 
@@ -228,9 +204,6 @@ def myPalindrome(number):
 
     print(reversePalindrome)
     print(isPalindrome)
-
-
-
 
 print(myPalindrome(123))
 

@@ -1,4 +1,4 @@
-// Task_1
+# Task_201
 
 first_number=int(input("Enter the first number: "))
 second_number=int(input("Enter the second number: "))
@@ -15,7 +15,7 @@ elif option==4:
 else:
     print("Invalid option")
 
-// Task_2
+# Task_202
 
 first_number=int(input("Enter the first number: "))
 second_number=int(input("Enter the second number: "))
@@ -29,7 +29,7 @@ elif option==2:
 else:
     print("Invalid option")
 
-// Task_3
+# Task_203
 
 first_number=int(input("Enter the first number: "))
 second_number=int(input("Enter the second number: "))
@@ -45,7 +45,7 @@ elif option==3:
 else:
     print("Invalid option")
 
-// Task_4
+# Task_204
 
 meters=int(input("Enter the amount of meters: "))
 print("1. Miles:\n2. Inches:\n3. Yards:")
@@ -59,7 +59,7 @@ elif choice==3:
 else:
     print("Invalid choice")
 
-// Task_5
+# Task_205
 
 seconds=int(input("Enter the amount of seconds: "))
 print("1. Hours left:\n2. Minutes left:")
@@ -74,7 +74,7 @@ elif seconds>86400:
 else:
     print("Invalid option")
 
-// Task_6
+# Task_206
 
 diameter=int(input("Enter the diameter of the circle:"))
 print("1. Calculate the area of the circle\n2. Calculate the perimeter of the circle")
@@ -86,7 +86,7 @@ elif choice==2:
 else:
     print("Invalid option")
 
-// Task_7
+# Task_207
 
 cost_of_ps=int(input("Enter the cost of PS:"))
 amount_bought=int(input("Enter the amount of PC bought:"))
@@ -101,7 +101,7 @@ elif choice==2:
 else:
     print("Invalid entry")
 
-// Task_8
+# Task_208
 
 file_size = int(input("Enter the file size in GB:"))
 internet_speed = int(input("Enter the internet speed:"))
@@ -118,7 +118,7 @@ elif estimate_time == 3:
 else:
     print("Invalid data")
 
-// Task_9
+# Task_209
 
 option=int(input("Please, enter the number for a day of the week:"))
 if option == 1:
@@ -138,7 +138,7 @@ elif option == 7:
 else:
     print("Invalid option")
 
-// Task_10
+# Task_210
 
 option=int(input("Please, enter the number for a day of the month:"))
 if option == 1:
@@ -168,7 +168,7 @@ elif option == 12:
 else:
     print("Invalid option")
 
-// Task_11
+# Task_211
 
 option = int(input("Please, enter your number:"))
 if option > 0:
@@ -180,7 +180,7 @@ elif option ==0:
 else:
     print("Invalid entry")
 
-// Task_12
+# Task_212
 
 first_number = int(input("Please, enter the first number:"))
 second_number = int(input("Please, enter the second number:"))
@@ -193,7 +193,7 @@ elif first_number > second_number:
 else:
     print("Invalid entry!")
 
-// Task_13
+# Task_213
 
 number=int(input("Enter the number: "))
 if 100000 <= number <= 999999:
@@ -216,7 +216,7 @@ if 100000 <= number <= 999999:
 else:
     print("Invalid number")
 
-// Task_14
+# Task_214
 
 number=int(input("Enter the number: "))
 if 100000 <= number <= 999999:
@@ -234,7 +234,7 @@ if 100000 <= number <= 999999:
 else:
     print("Invalid number")
 
-// Task_15
+# Task_215
 
 month = int(input("Please, enter the number from 1 to 12:"))
 if 1 <= month <= 12:
@@ -249,7 +249,7 @@ if 1 <= month <= 12:
 else:
     print("Invalid entry")
 
-// Task_16
+# Task_216
 
 number = int(input("Please, enter the number from 1-100:"))
 if 1 <= number <= 100:
@@ -264,7 +264,7 @@ if 1 <= number <= 100:
 else:
     print("Invalid entry")
 
-// Task_17
+# Task_217
 
 number = int(input("Please, enter the number:"))
 power_of = int(input("Enter 'The power of' number:"))
@@ -277,7 +277,7 @@ elif power_of==3:
 else:
     print("Invalid entry")
 
-// Task_18
+# Task_218
 
 salary_manager_one = 200
 salary_manager_two = 200

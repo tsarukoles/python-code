@@ -1,9 +1,9 @@
-// Task_1
+# Task_301
 
 myStr = input("Enter your text:")
 print(myStr[::-1])
 
-// Task_2
+# Task_302
 
 import string
 
@@ -19,19 +19,19 @@ print(myStr)
 print("Number of letters:", letters)
 print("Number of numbers:", number)
 
-// Task_3
+# Task_303
 
 myStr = input("Enter your text:")
 myFind = input("Enter your search:")
 print("Count results: ", myStr.count(myFind))
 
-// Task_4
+# Task_304
 
 myStr = input("Enter your text:")
 myFind = input("Enter your search:")
 print("Count result: ", myStr.count(myFind))
 
-// Task_5
+# Task_305
 
 myStr = input("Enter your text:")
 myFind = input("Enter your search:")
@@ -39,13 +39,13 @@ mySwap = input("Enter your value to change:")
 result = myStr.replace(myFind, mySwap)
 print(result)
 
-// Task_6
+# Task_306
 
 myStr = input("Enter your text:")
 if myStr.lower() == myStr[::-1].lower():
     print("This is a palinndrom:", myStr)
 
-// Task_7
+# Task_307
 
 myStr = input("Enter your text:")
 myRes = input("Enter reserved words:")
@@ -57,7 +57,7 @@ for word in range(len(myStrList)):
 result = " ".join(myStrList)
 print(result)
 
-// Task_8
+# Task_308
 
 myStr = ("If thou should live three thousand, or as many as ten thousands of years, yet remember this, that man can "
          "part with no life properly, save with that little part of life, which he now lives: and that which he "
@@ -85,13 +85,13 @@ for i in myStr:
 print(count)
 print(ord("."))
 
-// Task_9
+# Task_309
 
 myStr = input("Enter a string: ")
 myStrRev = myStr[::-1]
 print(myStrRev)
 
-// Task_10
+# Task_310
 
 digits = 0
 letters = 0
@@ -103,20 +103,20 @@ for i in range(len(myStr)):
         letters += 1
 print("Digits: ", digits, "Letters: ", letters)
 
-// Task_11
+# Task_311
 
 myStr = input("Enter a string: ")
 myCheck = input("Enter the symbol to find: ")
 result = myStr.count(myCheck)
 print(result)
 
-// Task_12
+# Task_312
 
 myStr = input("Enter a string: ")
 myFind = input("Enter a search word: ")
 print(myStr.count(myFind))
 
-// Task_13
+# Task_313
 
 myStr = input("Enter a string: ")
 myFind = input("Enter a search word: ")
@@ -128,7 +128,7 @@ for i in range(len(myStrList)):
 result = " ".join(myStrList)
 print(result)
 
-// Task_14
+# Task_314
 
 digits = 0
 symbols = 0
@@ -156,7 +156,7 @@ while choice != 0:
         print("Exclamations: ", exclamations)
     choice = input("Enter your choice:\n1. Capital\n2. Digits\n3. Symbols\n4. Exclamations\n0. Exit\n")
 
-// Task_15
+# Task_315
 
 myList = []
 choice = input("Would you like to add to the list type: yes/no\n")
@@ -169,7 +169,7 @@ result = myList.count(myFind)
 print(myList)
 print(result)
 
-// Task_16
+# Task_316
 
 myList = []
 mySum = 0
@@ -183,8 +183,7 @@ for i in myList:
 print(mySum)
 print(mySum / len(myList))
 
-// Task_17
-
+# Task_317
 
 expression = input("Enter your expression or exit with X: ")
 while expression != "X" and expression != "x":
@@ -211,7 +210,7 @@ expression=input()
 result=eval(expression)
 print(result)
 
-// Task_18
+# Task_318
 
 import re
 pattern=r'(\d+)([\+\-\*/])(\d+)'
@@ -224,7 +223,7 @@ if match:
         res=num1+num2
 print(res)
 
-// Task_19
+# Task_319
 
 expression=input()
 op=['+','-','*','/']
@@ -238,7 +237,7 @@ for oper in op:
 
 print(result)
 
-// Task_20
+# Task_320
 
 import random
 
@@ -267,7 +266,7 @@ print('Positive count: ', positive)
 print('Max value: ', maxValue)
 print('Min value: ', minValue)
 
-// Task_21
+# Task_321
 
 import random
 
@@ -316,7 +315,7 @@ print(indexThree)
 print(sumMinMax)
 print(multMinMax)
 
-// Task_22
+# Task_322
 
 import random
 
@@ -344,7 +343,7 @@ print(oddNumbers)
 print(negativeNumbers)
 print(positiveNumbers)
 
-// Task_23
+# Task_323
 
 import random
 
